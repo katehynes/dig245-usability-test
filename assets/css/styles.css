@@ -1,2 +1,21 @@
 
 /* css */
+.top-img {
+  background: url("assets/img/BlueRidgePrkwy.jpg"), #DC7960;
+  width: 100%;
+}
+.header {
+  width: 100%;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.title {
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
