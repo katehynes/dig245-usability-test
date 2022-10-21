@@ -1,24 +1,40 @@
 
 /* css */
-.top-img {
-  background: url("assets/img/BlueRidgePrkwy.jpg"), #DC7960;
-  width: 100%;
+.margin-bottom {
+  margin-bottom: 10%;
 }
 .header {
   width: 100%;
-}
-.relative {
-  position: relative;
-}
-.absolute {
-  position: absolute;
 }
 .title {
   left: 0;
   width: 100%;
   text-align: center;
   color: white;
+  background-color: #DC7960;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 body {
   background-color: #213A4F;
+}
+.text {
+  font-family: sans-serif;
+  color: white;
+}
+p {
+  font-size: 20px;
+}
+h2 {
+  text-transform: capitalize;
+}
+.pgh-space {
+  margin-top: 3%;
+}
+.orange-box {
+  background-color: #DC7960;
+  text-transform: capitalize;
+  color: white;
+  border-radius: 32%;
+  text-align: center;
 }
