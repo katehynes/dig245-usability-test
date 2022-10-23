@@ -1,10 +1,15 @@
 
 /* css */
+@media only screen and (max-width: 429px) {
+  h3 {
+    font-size: 14px;
+  }
+  .results p {
+    font-size: 12px;
+  }
+}
 .margin-bottom {
   margin-bottom: 15%;
-}
-.header {
-  width: 100%;
 }
 .title {
   left: 0;
@@ -22,22 +27,20 @@ body {
   font-family: sans-serif;
   color: white;
 }
+a {
+  color: white;
+}
+a:hover {
+  color: #DC7960;
+}
 p {
   font-size: 20px;
 }
-.capital {
-  text-transform: capitalize;
+h2 {
+  font-weight: bold;
 }
 .pgh-space {
   margin-top: 3%;
-}
-.task-name {
-  /*background-color: #DC7960;
-  text-transform: capitalize;
-  color: white;
-  border-radius: 40%;*/
-  /*text-align: center;
-  vertical-align: middle;*/
 }
 .center {
   text-align: center;
