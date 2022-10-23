@@ -39,6 +39,10 @@ p {
 h2 {
   font-weight: bold;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .pgh-space {
   margin-top: 3%;
 }
